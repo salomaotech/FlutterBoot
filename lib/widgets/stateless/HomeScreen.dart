@@ -3,16 +3,16 @@ import "package:flutter/material.dart";
 /**
  * Author: @salomaotech
  */
-class Layout extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   /* properties */
   String _titleApp;
 
   /* objects */
-  Widget _topContent;
   Widget _bodyContent;
+  Widget _homeNavigation;
 
   /* constructor */
-  Layout(this._titleApp, this._topContent, this._bodyContent);
+  HomeScreen(this._titleApp, this._bodyContent, this._homeNavigation);
 
   @override
   Widget build(BuildContext context) {
@@ -22,8 +22,9 @@ class Layout extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       home: Scaffold(
+        drawer: this._homeNavigation,
         appBar: AppBar(
-          title: this._topContent,
+          title: Text(this._titleApp),
         ),
         body: this._bodyContent,
       ),
