@@ -1,6 +1,6 @@
 # curso_flutter
 
-Estudando e praticando Flutter.
+FlutterBoot é um template para a criação de aplicativos móveis, este template já vem com muitos widgets configurados para o layout de uma aplicação.
 
 ## Getting Started
 
