@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 /**
- * autor: @salomaotech
+ * Description:>
+ * author:> @salomaotech
  */
 class UserAccount extends StatefulWidget {
   /* properties */
